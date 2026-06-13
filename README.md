@@ -8,6 +8,16 @@ A clean, zero-dependency collection of five lightweight graphical desktop applic
 ## 🎮 Suite Overview
 A collection of interactive games and an office utility crafted entirely around native Python components. By leveraging tkinter for rendering and basic event polling, each application achieves cross-platform execution without requiring heavy third-party framework wrappers like Pygame or PyQt.
 
+## 📍 Quick Navigation
+* [🎮 Suite Overview](#-suite-overview)
+* [📦 System Architecture](#-system-architecture)
+* [✨ Key Features](#-key-features)
+* [📁 Repository Structure](#-repository-structure-and-module-index)
+* [🛠️ Tech Stack](#️-tech-stack)
+* [💻 System Requirements](#-system-requirements)
+* [🚀 Setup & Execution Guide](#-setup--execution-guide)
+* [🏗️ Architectural Highlights](#%EF%B8%8F-architectural-highlights)
+  
 ## 📦 System Architecture
 
 ```text
