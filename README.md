@@ -6,28 +6,30 @@ A collection of interactive games and an office utility crafted entirely around 
 
 ## 📦 System Architecture
 
+## 📦 System Architecture
+
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    PYTHON STANDARD LIBRARY                  │
 ├──────────────────────────────┬──────────────────────────────┤
 │           tkinter            │            sys / math        │
 │     (UI Widgets & Canvas)    │    (System / Math Engines)   │
 └──────────────────────────────┴──────────────────────────────┘
-↓
+                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   DECUPLED APPLICATION LAYER                │
+│                   DECOUPLED APPLICATION LAYER               │
 ├────────────┬─────────────┬────────────┬─────────────┬───────┤
 │  snake.py  │  sudoku.py  │tic_tac_toe.│minesweeper. │calcul-│
 │            │             │    py      │    py       │ator.py│
 │ (Vector q) │ (Grid Matrix│ (Win Vector│ (Recursive  │(Eval  │
 │            │  Validation)│  Checking) │  Cascades)  │ Engine│
 └────────────┴─────────────┴────────────┴─────────────┴───────┘
-↓
+                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                    HOST OPERATING SYSTEM                    │
 ├──────────────────────────────────────────────────────────────┤
 │              Windows   │   macOS   │   Linux             │
 └──────────────────────────────────────────────────────────────┘
-
 
 ## ✨ Key Features
 
