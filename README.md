@@ -158,4 +158,3 @@ python3 calculator.py
 📄 License & Usage
 This project is open-source. Feel free to copy, modify, and redistribute the application assets as required.
 
-Built with ❤️ for Clean Python Engineering Excellence
