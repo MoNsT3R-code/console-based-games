@@ -1,10 +1,12 @@
 ## Graphical Games & Calculator Suite
-A clean, zero-dependency collection of five lightweight graphical desktop applications built using the Python Standard Library (tkinter).
+A clean, zero-dependency collection of five lightweight graphical desktop applications built using the Python Standard Library.
+
+![Python](https://img.shields.io/badge/Language-Python-blue?logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange?logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/IDE-VS%20Code-blue?logo=visual-studio-code&logoColor=white)
 
 ## 🎮 Suite Overview
 A collection of interactive games and an office utility crafted entirely around native Python components. By leveraging tkinter for rendering and basic event polling, each application achieves cross-platform execution without requiring heavy third-party framework wrappers like Pygame or PyQt.
-
-## 📦 System Architecture
 
 ## 📦 System Architecture
 
@@ -30,7 +32,7 @@ A collection of interactive games and an office utility crafted entirely around 
 ├──────────────────────────────────────────────────────────────┤
 │              Windows   │   macOS   │   Linux             │
 └──────────────────────────────────────────────────────────────┘
-
+```
 ## ✨ Key Features
 
 ✅ Zero External Dependencies - Runs out-of-the-box on any standard Python 3.8+ setup.
@@ -66,13 +68,13 @@ README.md - structural user interface guide and layout overview documentation.
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Quick Links |
-| :--- | :--- | :--- |
-| **Core Language** | Python 3.8+ | [python.org](https://www.python.org/) |
-| **Graphics Engine** | `tkinter` (Standard Library Canvas & Widget Toolkit) | [Tkinter Docs](https://docs.python.org/3/library/tkinter.html) |
-| **State Tracking** | Native Object Vectors, 2D Array Matrices, and Queues | [Data Structures](https://docs.python.org/3/tutorial/datastructures.html) |
-| **Architecture** | Component-Decoupled Object-Oriented Design (OOD) | [Python OOP](https://docs.python.org/3/tutorial/classes.html) |
-| **Security/Safety** | Target Input Sanitization (`isdigit()`), `ZeroDivisionError` Exception Handlers | [Errors & Exceptions](https://docs.python.org/3/tutorial/errors.html) |
+| Component | Technology |
+| :--- | :--- |
+| **Core Language** | Python 3.8+ |
+| **Graphics Engine** | `tkinter` (Python Standard Library Canvas & Widget Toolkit) |
+| **State Tracking** | Native Object Vectors, 2D Array Matrices, and Queues |
+| **Architecture** | Component-Decoupled Object-Oriented Design (OOD) |
+| **Security/Safety** | Target Input Sanitization (`isdigit()`), `ZeroDivisionError` Exception Handlers |
 
 ## 💻 System Requirements
 To deploy and run the applications in this suite, ensure the host environment meets these baseline configurations:
